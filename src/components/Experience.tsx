@@ -1,18 +1,5 @@
 const experiences = [
   {
-    period: 'Aug 2024 – Jun 2026',
-    role: 'Career Development & Certifications',
-    company: 'Independent',
-    location: 'India / Paris',
-    highlight: false,
-    tags: ['CISA (2025)', 'AAIA™ in progress', 'RNCP Level 7 AI/ML'],
-    bullets: [
-      'Obtained CISA certification (ISACA, 2025) and pursuing AAIA™ Advanced in AI Audit',
-      'Completed RNCP Level 7 Data Scientist — Machine Learning (OpenClassrooms, Bac+5)',
-      'Built 12 production ML projects: IAM anomaly detection, RAG pipelines, MLOps systems',
-    ],
-  },
-  {
     period: 'Feb – Jul 2024',
     role: 'Director — SAP Consulting & Business Transformation',
     company: 'Devoteam',
