@@ -23,8 +23,8 @@ export default function About() {
                 CISA-certified (2025) and AAIA™ Advanced in AI Audit certified (2026), both from ISACA.
               </p>
               <p>
-                At Alstom I designed and owned the group-level IT audit programme — 6 audits led directly,
-                material findings with financial exposure in the millions of euros, and a full SAP GRC Access
+                At Alstom I designed and owned the group-level IT audit programme — 4 to 6 audits led directly per year,
+                material findings with substantial financial exposure, and a full SAP GRC Access
                 Control deployment covering 40+ countries. SOX, GDPR, ISO 27001, Trade Secret and Competition
                 Law compliance across a global industrial group.
               </p>

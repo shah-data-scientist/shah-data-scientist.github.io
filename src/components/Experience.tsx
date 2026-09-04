@@ -23,7 +23,7 @@ const experiences = [
       'Designed and owned the annual IT audit programme at group level — 4 to 6 audits led directly per year, plus cybersecurity and penetration testing engagements delivered through external audit firms',
       'Conducted ITGC and ITAC testing on business-critical global ERP applications — findings presented to EVPs and country CIOs / IT Directors',
       'Identified material findings with substantial financial exposure across billion-euro programmes',
-      'Deployed SAP GRC Access Control from scratch — full SoD risk remediation and role redesign across global SAP landscape',
+      'Deployed SAP GRC Access Control from scratch — full SoD risk assessment and remediation across the global SAP landscape',
       'SOX, EU GDPR, Trade Secret and Competition Law compliance across 40+ countries',
     ],
   },

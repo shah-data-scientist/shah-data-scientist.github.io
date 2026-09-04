@@ -4,11 +4,14 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Shahul SHAIK — Senior IT Audit & AI Governance Expert',
   description:
-    'Portfolio of Shahul SHAIK — CISA-certified Senior IT Audit & AI Governance expert with 15-year career, 8+ years in IT Audit/GRC, and RNCP Level 7 AI/ML qualification.',
+    'Portfolio of Shahul SHAIK — CISA and AAIA-certified Senior IT Audit & AI Governance expert with 15-year career, 8+ years in IT Audit/GRC, and RNCP Level 7 AI/ML qualification.',
   keywords: [
     'IT Audit',
     'AI Governance',
+    'AI Audit',
     'CISA',
+    'AAIA',
+    'ISACA',
     'SAP GRC',
     'EU AI Act',
     'Data Scientist',
@@ -20,7 +23,7 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
   openGraph: {
     title: 'Shahul SHAIK — Senior IT Audit & AI Governance Expert',
-    description: 'CISA-certified IT Audit & AI Governance expert — 15-year career, RNCP Level 7 AI/ML, 12 production projects.',
+    description: 'CISA and AAIA-certified IT Audit & AI Governance expert — 15-year career, RNCP Level 7 AI/ML, 12 production projects.',
     type: 'website',
   },
 }
