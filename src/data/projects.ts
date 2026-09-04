@@ -27,27 +27,33 @@ export const projects: Project[] = [
     domainColor: 'emerald',
     isCapsone: true,
     description:
-      'Mines implicit RBAC roles from 32,769 access events using Non-negative Matrix Factorization (k=15, BIC-optimised), then detects permission drift via a hybrid rule + XGBoost scorer with plain-language SHAP explanations. Full 6-service containerised deployment: Nginx + FastAPI/gunicorn + Streamlit + PostgreSQL + Redis + Alembic migrations.',
+      'Mines implicit RBAC roles from 32,769 access events using Non-negative Matrix Factorization (k=15, BIC-optimised), then detects permission drift via NMF cosine similarity scoring with plain-language explanations. Fully unsupervised — no labelled anomalies required. Full 4-service containerised deployment: Nginx + FastAPI/gunicorn + Streamlit + Redis, with SQLite audit trail for simulation history and access revocation events.',
     longDescription: `Built as an open-source alternative to SailPoint / Saviynt for organisations that need
 auditable, explainable access risk scoring without €50–200k/yr commercial licensing.
 
-The system ingests Amazon's anonymised IAM dataset (343 employees × 7,518 systems), mines 15
-implicit organisational roles via NMF, and scores every (employee, system) pair with a balanced
-risk score derived from overlap with that employee's role cluster.
+The system ingests Amazon's anonymised IAM dataset (340 employees × 7,226 systems), mines 15
+implicit organisational roles via NMF (k selected by BIC minimisation), and scores every
+(employee, system) pair with a continuous 0–1 drift score derived from cosine similarity between
+the user's role vector (W) and the system's role vector (H).
 
-A FastAPI backend (gunicorn + 2 uvicorn workers) exposes drift scoring, fleet analytics, and role
-detail endpoints. A three-page Streamlit dashboard — Access Intelligence, User Access Review, User
-Access Simulation — makes results actionable for non-technical security reviewers. PostgreSQL stores
-simulation history and audit trail. Redis caches fleet analytics with 24h TTL.
+A supervised XGBoost approach was explicitly rejected: ACTION=0 rows in the dataset are
+provisioning refusals, not confirmed anomalies — training a classifier on them would introduce a
+methodological flaw. The unsupervised NMF cosine scorer avoids this entirely and requires no labels.
 
-Unsupervised evaluation: NMF reconstruction MSE, role coverage (strong/partial/weak membership),
-self-consistency gap (own vs non-access drift scores), and intra vs inter-cluster separation.`,
+A FastAPI backend exposes drift scoring, fleet analytics, and role detail endpoints. A three-page
+Streamlit dashboard — Access Intelligence, User Access Review, User Access Simulation — makes
+results actionable for non-technical security reviewers. SQLite persists simulation history and
+audit trail. Redis caches fleet analytics with 24h TTL.
+
+Unsupervised evaluation: NMF reconstruction MSE 0.0033, cluster separation 0.740,
+self-consistency gap 0.519. High Drift rate on own systems: 13.9% (reflects mixed-profile
+employees, not model failure).`,
     metrics: [
-      { label: 'XGBoost AUC', value: '0.694' },
+      { label: 'Cluster Separation', value: '0.740' },
+      { label: 'Self-Consistency Gap', value: '0.519' },
       { label: 'Roles Mined', value: '15' },
-      { label: 'Systems', value: '7,518' },
     ],
-    tech: ['NMF', 'XGBoost', 'SHAP', 'FastAPI', 'Streamlit', 'PostgreSQL', 'Redis', 'Docker', 'Nginx', 'scikit-learn'],
+    tech: ['NMF', 'FastAPI', 'Streamlit', 'SQLite', 'Redis', 'Docker', 'Nginx', 'scikit-learn', 'Plotly'],
     github: 'https://github.com/shah-data-scientist',
     featured: true,
   },

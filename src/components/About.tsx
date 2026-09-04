@@ -1,6 +1,6 @@
 const certs = [
   { name: 'CISA', org: 'ISACA', year: '2025', color: 'emerald' },
-  { name: 'AAIA™', org: 'ISACA — Advanced in AI Audit', year: 'Jun 2026', color: 'blue' },
+  { name: 'AAIA™', org: 'ISACA — Advanced in AI Audit', year: 'Sep 2026', color: 'blue' },
   { name: 'RNCP Level 7', org: 'OpenClassrooms — Data Scientist ML', year: '2026', color: 'purple' },
 ]
 
@@ -20,7 +20,7 @@ export default function About() {
                 I am a multidisciplinary expert with a{' '}
                 <span className="text-slate-200 font-semibold">15-year career spanning finance, SAP GRC consulting, and IT audit</span>{' '}
                 — including 8+ years specialising in IT Audit and governance since 2016.
-                CISA-certified (2025) and pursuing the AAIA™ Advanced in AI Audit credential from ISACA.
+                CISA-certified (2025) and AAIA™ Advanced in AI Audit certified (2026), both from ISACA.
               </p>
               <p>
                 At Alstom I designed and owned the group-level IT audit programme — 6 audits led directly,
@@ -101,10 +101,10 @@ export default function About() {
               <h3 className="text-slate-500 text-xs font-mono tracking-wider uppercase mb-3">Languages</h3>
               <div className="grid grid-cols-2 gap-2">
                 {[
-                  { lang: 'French', level: 'Fluent' },
-                  { lang: 'English', level: 'Fluent' },
+                  { lang: 'French', level: 'C2 (Native)' },
+                  { lang: 'English', level: 'C2' },
                   { lang: 'Hindi', level: 'Fluent' },
-                  { lang: 'Chinese (Mandarin)', level: 'Conversational' },
+                  { lang: 'Chinese (Mandarin)', level: 'Basic' },
                 ].map(({ lang, level }) => (
                   <div key={lang} className="flex items-center justify-between px-3 py-2 bg-[#07111f] border border-[#1a3050] rounded-lg">
                     <span className="text-slate-300 text-xs">{lang}</span>

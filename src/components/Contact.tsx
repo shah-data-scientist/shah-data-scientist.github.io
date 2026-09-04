@@ -5,8 +5,7 @@ export default function Contact() {
         <p className="text-emerald-400 font-mono text-sm tracking-wider mb-3">06 / contact</p>
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Get in Touch</h2>
         <p className="text-slate-400 mb-10 leading-relaxed">
-          Available from{' '}
-          <span className="text-slate-200 font-semibold">July 2026</span> — open to senior IT Audit,
+          <span className="text-slate-200 font-semibold">Immediately available</span> for senior IT Audit,
           AI Governance, and AI Engineering roles in{' '}
           <span className="text-slate-200 font-semibold">interesting opportunities worldwide</span>.
         </p>
@@ -54,12 +53,12 @@ export default function Contact() {
           <div className="hidden sm:block w-px h-4 bg-[#1a3050]" />
           <div className="flex items-center gap-2">
             <span className="w-1.5 h-1.5 bg-emerald-500 rounded-full animate-pulse" />
-            <span>Available July 2026</span>
+            <span>Immediately available</span>
           </div>
           <div className="hidden sm:block w-px h-4 bg-[#1a3050]" />
           <div className="flex items-center gap-2">
             <span>🇫🇷</span>
-            <span>French · EU Work Rights</span>
+            <span>French · EU/EFTA freedom of movement · Swiss B/G permit eligible</span>
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ const stats = [
   { value: '15', label: 'Yr Professional Career' },
   { value: '8+', label: 'Yrs IT Audit & GRC' },
   { value: '12', label: 'AI/ML Projects' },
-  { value: 'CISA', label: '+ AAIA™ in progress' },
+  { value: 'CISA', label: '+ AAIA™ obtained' },
 ]
 
 export default function Hero() {
@@ -44,7 +44,7 @@ export default function Hero() {
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-3 py-1.5 mb-8 border border-emerald-500/30 rounded-full bg-emerald-500/5 text-emerald-400 text-xs font-mono tracking-wider">
           <span className="w-1.5 h-1.5 bg-emerald-400 rounded-full animate-pulse" />
-          CISA · AAIA™ · RNCP Level 7 AI/ML — Available July 2026
+          CISA · AAIA™ · RNCP Level 7 AI/ML — Immediately available
         </div>
 
         {/* Name */}

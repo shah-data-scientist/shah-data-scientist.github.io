@@ -114,7 +114,7 @@ export default function Skills() {
               'Risk Quantification',
               'Independent Assessment',
               'Regulatory Interpretation',
-              'Vendor Management (Big 4)',
+              'Vendor Management (External Audit Firms)',
               'Programme Management',
               'Cross-functional Leadership',
               'Change Management',
