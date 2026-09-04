@@ -49,7 +49,8 @@ const experiences = [
     tags: ['SAP GRC', 'ABAP', 'Audit Automation'],
     bullets: [
       "Led long-term SAP GRC engagement for France's leading chemical group — primary contact for CFO office on SoD risk remediation",
-      'Reduced SAP authorisation audit duration from 10 days to 1 day with Power Query automation',
+      'Automated the SAP authorisation audit cycle from 10 days to 2 days using Power Query, and change implementation to under 1 hour per week',
+      'Managed a team of 5 SAP GRC consultants — Agile delivery model',
       'Conducted deep analysis of custom SAP ABAP code — identified critical security vulnerabilities beyond standard risk catalogues',
     ],
   },
@@ -62,7 +63,7 @@ const experiences = [
     tags: ['Logistics', 'Cross-border', 'Escalation Management'],
     bullets: [
       'Number 2 for France outbound logistics — sole responsible for all cross-border flows from France to EU (30+ carriers)',
-      'Led change management for two major technology implementations',
+      'On-call 50% for critical incident management; led 2 major logistics technology implementations in France and India',
     ],
   },
 ]
