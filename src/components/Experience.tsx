@@ -20,9 +20,9 @@ const experiences = [
     highlight: true,
     tags: ['SOX', 'GDPR', 'ISO 27001', 'SAP GRC', 'ITGC/ITAC'],
     bullets: [
-      'Designed and owned the annual IT audit programme at group level — 6 audits led directly + 4 via external vendors (PwC, Mazars, specialist cybersecurity firms)',
+      'Designed and owned the annual IT audit programme at group level — 4 to 6 audits led directly per year, plus cybersecurity and penetration testing engagements delivered through external audit firms',
       'Conducted ITGC and ITAC testing on business-critical global ERP applications — findings presented to EVPs and country CIOs / IT Directors',
-      'Identified material findings with financial exposure in the millions of euros across billion-euro programmes',
+      'Identified material findings with substantial financial exposure across billion-euro programmes',
       'Deployed SAP GRC Access Control from scratch — full SoD risk remediation and role redesign across global SAP landscape',
       'SOX, EU GDPR, Trade Secret and Competition Law compliance across 40+ countries',
     ],
