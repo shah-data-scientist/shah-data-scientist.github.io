@@ -31,7 +31,7 @@ export const projects: Project[] = [
     longDescription: `Built as an open-source alternative to SailPoint / Saviynt for organisations that need
 auditable, explainable access risk scoring without €50–200k/yr commercial licensing.
 
-The system ingests Amazon's anonymised IAM dataset (340 employees × 7,226 systems), mines 15
+The system ingests the anonymised UCI Employee Access dataset (340 employees × 7,226 systems), mines 15
 implicit organisational roles via NMF (k selected by BIC minimisation), and scores every
 (employee, system) pair with a continuous 0–1 drift score derived from cosine similarity between
 the user's role vector (W) and the system's role vector (H).
@@ -98,7 +98,7 @@ employees, not model failure).`,
     domain: 'AgTech / MLOps',
     domainColor: 'green',
     description:
-      'Production MLOps platform predicting crop yields and recommending optimal crops. Ridge regression pipeline trained on 666K farm records achieves R²=0.913. Full CI/CD with GitHub Actions, MLflow experiment tracking, and Docker Compose deployment.',
+      'End-to-end MLOps platform predicting crop yields and recommending optimal crops. Ridge regression pipeline trained on 666K farm records achieves R²=0.913. Full CI/CD with GitHub Actions, MLflow experiment tracking, and Docker Compose deployment.',
     metrics: [
       { label: 'R²', value: '0.913' },
       { label: 'Test Records', value: '666K' },
@@ -115,7 +115,7 @@ employees, not model failure).`,
     domain: 'Financial Services / AI Governance',
     domainColor: 'yellow',
     description:
-      'Production credit default prediction (LightGBM, 189 features, ROC-AUC 0.832, −47% business cost vs baseline). Full EU AI Act conformity assessment under Annex III Point 5(b) HIGH-RISK — covering Articles 9–15: risk management, data governance, transparency, human-in-the-loop oversight, and fairness testing across gender, age, education, and income type (gender DIR 0.612, calibration bias < 0.002). ONNX Runtime 55× inference speedup, automated drift detection (KS, PSI), 459 tests, MLflow v3.6, full CI/CD.',
+      'End-to-end credit default prediction (LightGBM, 189 features, ROC-AUC 0.832, −47% business cost vs baseline). Full EU AI Act conformity assessment under Annex III Point 5(b) HIGH-RISK — covering Articles 9–15: risk management, data governance, transparency, human-in-the-loop oversight, and fairness testing across gender, age, education, and income type (gender DIR 0.612, calibration bias < 0.002). ONNX Runtime 55× inference speedup, automated drift detection (KS, PSI), 459 tests, MLflow v3.6, full CI/CD.',
     metrics: [
       { label: 'ROC-AUC', value: '0.832' },
       { label: 'ONNX Speedup', value: '55×' },
@@ -162,11 +162,11 @@ employees, not model failure).`,
   {
     id: 'employee-attrition',
     title: 'Employee Attrition System',
-    subtitle: 'EDA → Production API',
+    subtitle: 'EDA → Deployable API',
     domain: 'HR Analytics',
     domainColor: 'orange',
     description:
-      'Full lifecycle from EDA notebooks to production: Logistic Regression + SMOTE for class imbalance, SHAP explanations for HR decision-making, batch prediction API, async Excel report generation, and a complete PostgreSQL audit trail.',
+      'Full lifecycle from EDA notebooks to a deployable system: Logistic Regression + SMOTE for class imbalance, SHAP explanations for HR decision-making, batch prediction API, async Excel report generation, and a complete PostgreSQL audit trail.',
     metrics: [
       { label: 'ROC-AUC', value: '0.824' },
       { label: 'Recall', value: '86.4%' },

@@ -3,10 +3,9 @@
 import { useEffect, useRef } from 'react'
 
 const stats = [
-  { value: '15', label: 'Yr Professional Career' },
-  { value: '8+', label: 'Yrs IT Audit & GRC' },
   { value: '12', label: 'AI/ML Projects' },
   { value: 'CISA', label: '+ AAIA™ obtained' },
+  { value: 'RNCP 7', label: 'AI/ML Qualification' },
 ]
 
 export default function Hero() {
@@ -60,9 +59,9 @@ export default function Hero() {
 
         {/* Description */}
         <p className="max-w-2xl mx-auto text-slate-400 text-base md:text-lg leading-relaxed mb-10">
-          15-year career spanning finance, SAP GRC, and IT audit — including 8+ years specialising in
-          IT Audit, SAP GRC, and ERP controls. Now with a Master-level AI/ML qualification and 12 production
-          ML projects. The auditor who can build the systems he evaluates.
+          Master-level AI/ML qualification (RNCP Level 7) and 12 end-to-end AI/ML projects —
+          data pipeline through to deployable system (API, tests, containerisation).
+          The auditor who can build the systems he evaluates.
         </p>
 
         {/* CTA buttons */}
@@ -72,12 +71,6 @@ export default function Hero() {
             className="px-8 py-3 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-semibold rounded-lg transition-all text-sm"
           >
             View AI/ML Projects
-          </a>
-          <a
-            href="#experience"
-            className="px-8 py-3 border border-[#1a3050] hover:border-emerald-500/40 text-slate-300 hover:text-slate-100 rounded-lg transition-all text-sm"
-          >
-            Career Timeline ↓
           </a>
           <a
             href="https://github.com/shah-data-scientist"
@@ -90,7 +83,7 @@ export default function Hero() {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-2xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-xl mx-auto">
           {stats.map((stat) => (
             <div
               key={stat.label}

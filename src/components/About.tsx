@@ -17,29 +17,17 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-slate-400 leading-relaxed">
               <p>
-                I am a multidisciplinary expert with a{' '}
-                <span className="text-slate-200 font-semibold">15-year career spanning finance, SAP GRC consulting, and IT audit</span>{' '}
-                — including 8+ years specialising in IT Audit and governance since 2016.
+                I work at the intersection of{' '}
+                <span className="text-slate-200 font-semibold">IT audit, GRC, and AI governance</span>.
                 CISA-certified (2025) and AAIA™ Advanced in AI Audit certified (2026), both from ISACA.
               </p>
               <p>
-                At Alstom I designed and owned the group-level IT audit programme — 4 to 6 audits led directly per year,
-                material findings with substantial financial exposure, and a full SAP GRC Access
-                Control deployment covering 40+ countries. SOX, GDPR, ISO 27001, Trade Secret and Competition
-                Law compliance across a global industrial group.
-              </p>
-              <p>
-                Since 2024 I have complemented that career with a{' '}
+                Alongside those credentials I hold a{' '}
                 <span className="text-slate-200 font-semibold">Master-level qualification in AI/ML</span>{' '}
-                (RNCP Level 7) and 12 production projects — including an{' '}
+                (RNCP Level 7) and have built 12 end-to-end AI/ML projects — data pipeline through to
+                deployable system (API, tests, containerisation) — including an{' '}
                 <span className="text-emerald-400">IAM anomaly detection platform</span>{' '}
-                that applies NMF role mining and XGBoost drift scoring to exactly the access review workflows
-                I audited at Alstom.
-              </p>
-              <p>
-                My target: senior <span className="text-slate-200 font-semibold">AI Governance</span>,
-                AI Audit, or IT Audit roles — open to{' '}
-                <span className="text-slate-200 font-semibold">interesting opportunities worldwide</span>.
+                that applies NMF role mining and XGBoost drift scoring to access review workflows.
               </p>
             </div>
 
@@ -112,15 +100,6 @@ export default function About() {
                   </div>
                 ))}
               </div>
-            </div>
-
-            {/* Community */}
-            <div className="p-4 border border-[#1a3050] rounded-xl bg-[#0d1b2e]/60">
-              <h3 className="text-slate-500 text-xs font-mono tracking-wider uppercase mb-2">Community</h3>
-              <p className="text-slate-400 text-sm leading-relaxed">
-                <span className="text-slate-200">Co-Lead</span> — SAP GRC Governance Risk &amp; Compliance Workgroup,
-                SAP ERP French Clients Community
-              </p>
             </div>
           </div>
         </div>

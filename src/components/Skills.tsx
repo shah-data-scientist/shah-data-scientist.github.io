@@ -41,10 +41,10 @@ export default function Skills() {
   return (
     <section id="skills" className="py-24 px-6 bg-[#0a1828]/60">
       <div className="max-w-5xl mx-auto">
-        <p className="text-emerald-400 font-mono text-sm tracking-wider mb-3">03 / skills</p>
+        <p className="text-emerald-400 font-mono text-sm tracking-wider mb-3">02 / skills</p>
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Expertise Stack</h2>
         <p className="text-slate-500 mb-12 max-w-xl">
-          A rare combination: 15 years of audit and GRC practice with Master-level AI/ML engineering credentials.
+          Audit and GRC expertise combined with Master-level AI/ML engineering credentials.
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

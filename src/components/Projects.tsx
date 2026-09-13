@@ -11,8 +11,8 @@ export default function Projects() {
         <p className="text-emerald-400 font-mono text-sm tracking-wider mb-3">03 / projects</p>
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Featured Work</h2>
         <p className="text-slate-500 mb-12 max-w-xl">
-          Production ML systems across security, finance, healthcare, agriculture, and AI — each
-          deployed with a REST API, tests, and documentation.
+          End-to-end ML systems across security, finance, healthcare, agriculture, and AI — data
+          pipeline through to deployable system, each with a REST API, tests, and documentation.
         </p>
 
         {/* Featured grid */}

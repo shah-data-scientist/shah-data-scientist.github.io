@@ -25,7 +25,7 @@ export default function Capstone() {
           Access Management Platform
         </h2>
         <p className="text-slate-400 mb-10 max-w-2xl">
-          Projet 13 capstone — an open-source IAM anomaly detection system built on the UCI Amazon
+          Projet 13 capstone — an open-source IAM anomaly detection system built on the UCI
           Employee Access dataset. Comparable to what SailPoint and Saviynt commercialise at
           €50–200k/yr licensing, deployable on CPU-only infrastructure.
         </p>
