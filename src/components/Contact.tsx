@@ -4,11 +4,6 @@ export default function Contact() {
       <div className="max-w-3xl mx-auto text-center">
         <p className="text-emerald-400 font-mono text-sm tracking-wider mb-3">06 / contact</p>
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Get in Touch</h2>
-        <p className="text-slate-400 mb-10 leading-relaxed">
-          <span className="text-slate-200 font-semibold">Immediately available</span> for senior IT Audit,
-          AI Governance, and AI Engineering roles in{' '}
-          <span className="text-slate-200 font-semibold">interesting opportunities worldwide</span>.
-        </p>
 
         <div className="grid sm:grid-cols-2 gap-4 max-w-xl mx-auto mb-12">
           <a
