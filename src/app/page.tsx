@@ -41,7 +41,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-8 px-6 border-t border-[#1a3050] text-center">
         <p className="text-slate-600 text-sm font-mono">
-          Shahul SHAIK · Paris, France · Immediately available
+          Shahul SHAIK · Paris, France
         </p>
       </footer>
     </main>

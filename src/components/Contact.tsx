@@ -39,16 +39,11 @@ export default function Contact() {
           </a>
         </div>
 
-        {/* Location & availability */}
+        {/* Location */}
         <div className="inline-flex flex-col sm:flex-row items-center gap-6 px-6 py-4 border border-[#1a3050] rounded-xl bg-[#0d1b2e]/60 text-sm text-slate-500">
           <div className="flex items-center gap-2">
             <span>📍</span>
             <span>Paris, France — open to worldwide</span>
-          </div>
-          <div className="hidden sm:block w-px h-4 bg-[#1a3050]" />
-          <div className="flex items-center gap-2">
-            <span className="w-1.5 h-1.5 bg-emerald-500 rounded-full animate-pulse" />
-            <span>Immediately available</span>
           </div>
           <div className="hidden sm:block w-px h-4 bg-[#1a3050]" />
           <div className="flex items-center gap-2">

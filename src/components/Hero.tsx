@@ -5,7 +5,7 @@ import { useEffect, useRef } from 'react'
 const stats = [
   { value: '12', label: 'AI/ML Projects' },
   { value: 'CISA', label: '+ AAIA™ obtained' },
-  { value: 'RNCP 7', label: 'AI/ML Qualification' },
+  { value: 'MSc', label: 'Data Science, ML & AI' },
 ]
 
 export default function Hero() {
@@ -43,7 +43,7 @@ export default function Hero() {
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-3 py-1.5 mb-8 border border-emerald-500/30 rounded-full bg-emerald-500/5 text-emerald-400 text-xs font-mono tracking-wider">
           <span className="w-1.5 h-1.5 bg-emerald-400 rounded-full animate-pulse" />
-          CISA · AAIA™ · RNCP Level 7 AI/ML — Immediately available
+          CISA · AAIA™ · MSc Data Science, ML & AI
         </div>
 
         {/* Name */}
@@ -59,7 +59,7 @@ export default function Hero() {
 
         {/* Description */}
         <p className="max-w-2xl mx-auto text-slate-400 text-base md:text-lg leading-relaxed mb-10">
-          Master-level AI/ML qualification (RNCP Level 7) and 12 end-to-end AI/ML projects —
+          Master's in Data Science, ML and AI, and 12 end-to-end AI/ML projects —
           data pipeline through to deployable system (API, tests, containerisation).
           The auditor who can build the systems he evaluates.
         </p>
